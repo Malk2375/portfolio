@@ -26,7 +26,7 @@ export const Projects = () => {
         { icon: SiMysql, name: "MySQL" },
         { icon: FaBootstrap, name: "Bootstrap" },
       ]
-}
+    }
   ];
 
   return (
@@ -48,12 +48,12 @@ export const Projects = () => {
                   Voir le projet
                 </a>
                 <div className="flex space-x-4 mt-2 text-gray-800 dark:text-gray-200">
-                {project.technologies && Array.isArray(project.technologies) && project.technologies.map((tech, techIndex) => (
-                  <div key={techIndex} className="flex items-center">
-                    <tech.icon className="text-2xl text-teal-500 mr-2" />
-                    <span className="text-white">{tech.name}</span>
-                  </div>
-                ))}
+                  {project.technologies && Array.isArray(project.technologies) && project.technologies.map((tech, techIndex) => (
+                    <div key={techIndex} className="flex items-center">
+                      <tech.icon className="text-2xl text-teal-500 mr-2" />
+                      <span className="text-white">{tech.name}</span>
+                    </div>
+                  ))}
                 </div>
               </div>
             </div>

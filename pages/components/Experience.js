@@ -1,8 +1,5 @@
 import React from "react";
-// Importez les icônes pour les technologies
 import { FaSymfony, FaNodeJs, FaBootstrap } from "react-icons/fa";
-// Assurez-vous d'importer le logo de TRI AUTO
-import "../../public/avatar-01.jpg";
 
 export const Experience = () => {
   return (
@@ -12,7 +9,7 @@ export const Experience = () => {
       </h2>
       <div className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-lg">
         <div className="flex items-center mb-4">
-          <img src="/avatar-01.jpg" alt="TRI AUTO Logo" className="w-20 h-20 mr-4" />
+          <img src="/avatar-01.jpg" alt="Logo TRI AUTO" className="w-20 h-20 mr-4" />
           <div>
             <h3 className="text-3xl py-1 dark:text-white">
               2024 - Stage - TRI AUTO
@@ -23,7 +20,7 @@ export const Experience = () => {
           </div>
         </div>
         <ul className="list-disc list-inside mt-4 text-md leading-8 text-gray-800 dark:text-gray-200">
-          <li>Création d’un site en Bootstrap, Symfony, MySQL qui permet aux utilisateurs de rechercher, filtrer, commander des pièces détachées en ligne.</li>
+          <li>Création d’un site en Bootstrap, Symfony, MySQL permettant aux utilisateurs de rechercher, filtrer et commander des pièces détachées en ligne.</li>
           <li>Mise en place d’un système d’administration pour la gestion des articles.</li>
           <li>Collaboration avec CIRTA IT pour lier la base de données existante de TRI AUTO avec le site.</li>
         </ul>
