@@ -2,6 +2,7 @@ import React from "react";
 import { FaSymfony, FaNodeJs, FaBootstrap, FaReact } from "react-icons/fa";
 import { SiMysql } from "react-icons/si";
 import { SiFirebase } from "react-icons/si";
+import Image from "next/image";
 
 export const Projects = () => {
   const projects = [
@@ -37,14 +38,14 @@ export const Projects = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
         {projects.map((project, index) => (
           <div key={index} className="bg-white dark:bg-gray-800 shadow-lg rounded-lg overflow-hidden">
-            <img src={project.imageUrl} alt={project.name} className="w-full h-56 object-cover object-center" />
+            <Image src={project.imageUrl} alt={project.name} className="w-full h-56 object-cover object-center" />
             <div className="p-5">
               <h3 className="text-2xl dark:text-white">{project.name}</h3>
               <p className="text-gray-700 dark:text-gray-300 mb-5">
                 {project.description}
               </p>
               <div className="flex justify-between items-center">
-                <a href={project.link} target="_blank" className="text-blue-500 hover:text-blue-400 transition duration-300 ease-in-out">
+                <a href={project.link} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-400 transition duration-300 ease-in-out">
                   Voir le projet
                 </a>
                 <div className="flex space-x-4 mt-2 text-gray-800 dark:text-gray-200">

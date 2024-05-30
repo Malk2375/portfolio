@@ -60,7 +60,7 @@ export default function Home() {
           <div className="text-center p-10 py-10">
             <div className="messagecontainer">
               <h1 className="message text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-                Bonjour, c'est Malk
+                Bonjour, c&apos;est Malk
               </h1>
               <div className="typingtext">
                 <h2></h2>
@@ -78,7 +78,7 @@ export default function Home() {
               </a>
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={profile} layout="fill" objectFit="cover" />
+              <Image src={profile} alt="Profile picture" layout="fill" objectFit="cover" />
             </div>
           </div>
         </section>
