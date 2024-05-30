@@ -44,19 +44,20 @@ export const Projects = () => {
               <p className="text-gray-700 dark:text-gray-300 mb-5">
                 {project.description}
               </p>
-              <div className="flex justify-between items-center">
-                <a href={project.link} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-400 transition duration-300 ease-in-out">
-                  Voir le projet
-                </a>
-                <div className="flex space-x-4 mt-2 text-gray-800 dark:text-gray-200">
+              <div className="flex justify-between items-center flex-col sm:flex-row">
+                <div className="flex space-x-4 my-4 text-gray-800 dark:text-gray-200">
                   {project.technologies && Array.isArray(project.technologies) && project.technologies.map((tech, techIndex) => (
                     <div key={techIndex} className="flex items-center">
                       <tech.icon className="text-2xl text-teal-500 mr-2" />
-                      <span className="text-white">{tech.name}</span>
+                      <span className={`text-white ${techIndex >= 0 ? 'hidden md:inline' : ''}`}>{tech.name}</span>
                     </div>
                   ))}
                 </div>
+                <a href={project.link} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-400 transition duration-300 ease-in-out">
+                  Voir le projet
+                </a>
               </div>
+
             </div>
           </div>
         ))}

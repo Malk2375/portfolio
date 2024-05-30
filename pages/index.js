@@ -47,12 +47,12 @@ export default function Home() {
               </li>
               <li>
                 <a
-                  className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
+                  className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-2 py-1 border-none rounded-md ml-8 text-sm md:text-base"
                   target="_blank"
                   href="https://drive.google.com/file/d/1vZRrdxtIPB2IdF4v8aaz0RPH0CMzn9VA/view?usp=sharing"
                   rel="noopener noreferrer"
                 >
-                  Curriculum vitae
+                  CV
                 </a>
               </li>
             </ul>
@@ -63,7 +63,7 @@ export default function Home() {
                 Bonjour, c&apos;est Malk
               </h1>
               <div className="typingtext">
-                <h2></h2>
+                <h2 className="typing-text text-sm md:text-base"></h2>
               </div>
             </div>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">

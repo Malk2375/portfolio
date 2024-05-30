@@ -5,13 +5,13 @@ import { SiTailwindcss, SiJavascript, SiFirebase, SiMysql } from "react-icons/si
 
 export const Technologies = () => {
   return (
-    <section className="py-10">
+    <section className="py-10 flex flex-col">
       <h2 className="text-4xl font-bold py-5 dark:text-white text-center">
         Technologies maîtrisées
       </h2>
-      <div className="grid grid-cols-3 gap-10 p-8">
+      <div className="flex-col justify-center md:grid md:grid-cols-3 gap-10 p-8">
         {/* Frontend */}
-        <div>
+        <div className="my-7	">
           <h3 className="text-2xl font-semibold dark:text-white">Frontend</h3>
           <div className="space-y-4 mt-4">
             <div className="flex items-center space-x-4">
@@ -41,7 +41,7 @@ export const Technologies = () => {
           </div>
         </div>
         {/* Backend */}
-        <div>
+        <div className="my-7	">
           <h3 className="text-2xl font-semibold dark:text-white">Backend</h3>
           <div className="space-y-4 mt-4">
             <div className="flex items-center space-x-4">
@@ -59,7 +59,7 @@ export const Technologies = () => {
           </div>
         </div>
         {/* Base de données */}
-        <div>
+        <div className="my-7	">
           <h3 className="text-2xl font-semibold dark:text-white">Base de données</h3>
           <div className="space-y-4 mt-4">
             <div className="flex items-center space-x-4">
@@ -74,6 +74,7 @@ export const Technologies = () => {
         </div>
       </div>
     </section>
+
   );
 };
 export default Technologies;
