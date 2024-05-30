@@ -46,7 +46,8 @@ export default function Home() {
                 />
               </li>
               <li>
-                <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
+                <a
+                  className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
                   target="_blank"
                   href="https://drive.google.com/file/d/1vZRrdxtIPB2IdF4v8aaz0RPH0CMzn9VA/view?usp=sharing"
                   rel="noopener noreferrer"
@@ -58,8 +59,10 @@ export default function Home() {
           </nav>
           <div className="text-center p-10 py-10">
             <div className="messagecontainer">
-              <h1 className="message text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">Bonjour, c'est Malk</h1>
-              <div className="typingtext ">
+              <h1 className="message text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
+                Bonjour, c'est Malk
+              </h1>
+              <div className="typingtext">
                 <h2></h2>
               </div>
             </div>
