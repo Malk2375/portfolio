@@ -4,7 +4,7 @@ import { SiMysql } from "react-icons/si";
 import { SiFirebase } from "react-icons/si";
 import Image from "next/image";
 
-const Projects = () => {
+export const Projects = () => {
   const projects = [
     {
       name: "La legion",

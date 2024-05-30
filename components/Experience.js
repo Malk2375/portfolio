@@ -2,7 +2,7 @@ import React from "react";
 import { FaSymfony, FaNodeJs, FaBootstrap } from "react-icons/fa";
 import Image from "next/image";
 
-const Experience = () => {
+export const Experience = () => {
   return (
     <section className="py-10">
       <h2 className="text-4xl font-bold py-5 dark:text-white text-center">
@@ -21,8 +21,8 @@ const Experience = () => {
           </div>
         </div>
         <ul className="list-disc list-inside mt-4 text-md leading-8 text-gray-800 dark:text-gray-200">
-          <li>Création d’un site en Bootstrap, Symfony, MySQL permettant aux utilisateurs de rechercher, filtrer et commander des pièces détachées en ligne.</li>
-          <li>Mise en place d’un système d’administration pour la gestion des articles.</li>
+          <li>Création d&apos;un site en Bootstrap, Symfony, MySQL permettant aux utilisateurs de rechercher, filtrer et commander des pièces détachées en ligne.</li>
+          <li>Mise en place d&apos;un système d&apos;administration pour la gestion des articles.</li>
           <li>Collaboration avec CIRTA IT pour lier la base de données existante de TRI AUTO avec le site.</li>
         </ul>
         <div className="mt-6">
