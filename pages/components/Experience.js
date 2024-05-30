@@ -10,7 +10,7 @@ export const Experience = () => {
       </h2>
       <div className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-lg">
         <div className="flex items-center mb-4">
-          <Image src="/avatar-01.jpg" alt="Logo TRI AUTO" className="w-20 h-20 mr-4" />
+          <Image src="/avatar-01.jpg" alt="Logo TRI AUTO" width={70} height={70}  className="w-20 h-20 mr-4 triauto"  />
           <div>
             <h3 className="text-3xl py-1 dark:text-white">
               2024 - Stage - TRI AUTO

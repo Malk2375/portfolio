@@ -7,8 +7,8 @@ import Image from "next/image";
 export const Projects = () => {
   const projects = [
     {
-      name: "WebDOC JUDO JO 2024",
-      description: "Mon portfolio personnel conçu pour démontrer mes compétences en React et Tailwind CSS, avec une interface utilisateur réactive et moderne.",
+      name: "La legion",
+      description: "La legion est une application web commandée par la Mairie de Paris pour présenter les combats des judokas français aux Jeux Olympiques. Ce projet offre une plateforme interactive pour suivre et revivre les performances des athlètes français en judo.",
       imageUrl: "/lalegion.png", // Mettez ici le chemin vers l'image du projet
       link: "https://lalegion.vercel.app/", // Lien vers le projet,
       technologies: [
@@ -19,7 +19,7 @@ export const Projects = () => {
     },
     {
       name: "Bitchest",
-      description: "Mon portfolio personnel conçu pour démontrer mes compétences en React et Tailwind CSS, avec une interface utilisateur réactive et moderne.",
+      description: "BitChest est une application web pour gérer les portefeuilles de cryptomonnaies, accessible sur divers appareils. Elle permet aux administrateurs de gérer les utilisateurs et aux clients de consulter et gérer leurs cryptomonnaies.",
       imageUrl: "/bitchest.png", // Mettez ici le chemin vers l'image du projet
       link: "https://dorbani.alwaysdata.net", // Lien vers le projet,
       technologies: [
@@ -38,7 +38,7 @@ export const Projects = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
         {projects.map((project, index) => (
           <div key={index} className="bg-white dark:bg-gray-800 shadow-lg rounded-lg overflow-hidden">
-            <Image src={project.imageUrl} alt={project.name} className="w-full h-56 object-cover object-center" />
+            <Image src={project.imageUrl} alt={project.name} width={650} height={240} className="w-full h-56 object-cover object-center" />
             <div className="p-5">
               <h3 className="text-2xl dark:text-white">{project.name}</h3>
               <p className="text-gray-700 dark:text-gray-300 mb-5">
