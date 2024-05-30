@@ -3,7 +3,7 @@ import React from "react";
 import { FaHtml5, FaCss3Alt, FaBootstrap, FaReact, FaPhp, FaSymfony, FaDocker, FaDatabase } from "react-icons/fa";
 import { SiTailwindcss, SiJavascript, SiFirebase, SiMysql } from "react-icons/si";
 
-export const Technologies = () => {
+const Technologies = () => {
   return (
     <section className="py-10">
       <h2 className="text-4xl font-bold py-5 dark:text-white text-center">
@@ -76,3 +76,4 @@ export const Technologies = () => {
     </section>
   );
 };
+export default Technologies;

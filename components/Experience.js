@@ -2,7 +2,7 @@ import React from "react";
 import { FaSymfony, FaNodeJs, FaBootstrap } from "react-icons/fa";
 import Image from "next/image";
 
-export const Experience = () => {
+const Experience = () => {
   return (
     <section className="py-10">
       <h2 className="text-4xl font-bold py-5 dark:text-white text-center">
@@ -46,3 +46,4 @@ export const Experience = () => {
     </section>
   );
 };
+export default Experience;

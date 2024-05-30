@@ -5,9 +5,9 @@ import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState, useEffect } from "react";
 import profile from "../public/ProfileDORBANI.png";
 import Image from "next/image";
-import { Experience } from "./components/Experience.js";
-import { Technologies } from "./components/Technologies.js";
-import { Projects } from "./components/Projets.js";
+import { Experience } from "../components/Experience.js";
+import { Technologies } from "../components/Technologies.js";
+import { Projects } from "../components/Projets.js";
 import Typed from "typed.js";
 
 export default function Home() {
