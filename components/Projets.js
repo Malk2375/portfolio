@@ -4,7 +4,6 @@ import { SiMysql } from "react-icons/si";
 import { SiFirebase } from "react-icons/si";
 import { FaVuejs } from "react-icons/fa";
 import { TbApi } from "react-icons/tb";
-import { BsFiletypeScss } from "react-icons/bs";
 
 import Image from "next/image";
 
@@ -22,25 +21,25 @@ export const Projects = () => {
       ]
     },
     {
-      name: "La legion",
-      description: "La legion est une application web commandée par la Mairie de Paris pour présenter les combats des judokas français aux Jeux Olympiques. Ce projet offre une plateforme interactive pour suivre et revivre les performances des athlètes français en judo.",
-      imageUrl: "/lalegion.png",
-      link: "https://lalegion.vercel.app/",
-      technologies: [
-        { icon: FaReact, name: "React" },
-        { icon: FaNodeJs, name: "Node.js" },
-        { icon: SiFirebase, name: "Firebase" },
-      ]
-    },
-    {
       name: "Bitchest",
       description: "BitChest est une application web pour gérer les portefeuilles de cryptomonnaies, accessible sur divers appareils. Elle permet aux administrateurs de gérer les utilisateurs et aux clients de consulter et gérer leurs cryptomonnaies.",
-      imageUrl: "/bitchest.png",
+      imageUrl: "/BITCHEST.png",
       link: "https://dorbani.alwaysdata.net",
       technologies: [
         { icon: FaSymfony, name: "Symfony" },
         { icon: SiMysql, name: "MySQL" },
         { icon: FaBootstrap, name: "Bootstrap" },
+      ]
+    },
+    {
+      name: "La legion",
+      description: "La legion est une application web commandée par la Mairie de Paris pour présenter les combats des judokas français aux Jeux Olympiques. Ce projet offre une plateforme interactive pour suivre et revivre les performances des athlètes français en judo.",
+      imageUrl: "/LALGION.png",
+      link: "https://lalegion.vercel.app/",
+      technologies: [
+        { icon: FaReact, name: "React" },
+        { icon: FaNodeJs, name: "Node.js" },
+        { icon: SiFirebase, name: "Firebase" },
       ]
     }
   ];
