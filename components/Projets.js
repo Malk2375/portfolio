@@ -2,15 +2,30 @@ import React from "react";
 import { FaSymfony, FaNodeJs, FaBootstrap, FaReact } from "react-icons/fa";
 import { SiMysql } from "react-icons/si";
 import { SiFirebase } from "react-icons/si";
+import { FaVuejs } from "react-icons/fa";
+import { TbApi } from "react-icons/tb";
+import { BsFiletypeScss } from "react-icons/bs";
+
 import Image from "next/image";
 
 export const Projects = () => {
   const projects = [
     {
+      name: "Spinalcom batiment - Analyse occupation batiment",
+      description: "Cette application est faite pour SpinalCOM, ça affiche l'occupation des pièces d'un bâtiment, classée par étage. Le statut d'occupation peut être TRUE (occupée), FALSE (non occupée) ou UNDEFINED (inconnu). L'application est développée avec Vue.js version 2.7.14 et interagit avec l'API SpinalCom pour récupérer les données des pièces.",
+      imageUrl: "/SpinalCom.png",
+      link: "https://spinalcom-batiment-analyse-occupation.vercel.app/",
+      technologies: [
+        { icon: FaVuejs, name: "VueJs" },
+        { icon: FaNodeJs, name: "Node.js" },
+        { icon: TbApi, name: "Api" },
+      ]
+    },
+    {
       name: "La legion",
       description: "La legion est une application web commandée par la Mairie de Paris pour présenter les combats des judokas français aux Jeux Olympiques. Ce projet offre une plateforme interactive pour suivre et revivre les performances des athlètes français en judo.",
-      imageUrl: "/lalegion.png", // Mettez ici le chemin vers l'image du projet
-      link: "https://lalegion.vercel.app/", // Lien vers le projet,
+      imageUrl: "/lalegion.png",
+      link: "https://lalegion.vercel.app/",
       technologies: [
         { icon: FaReact, name: "React" },
         { icon: FaNodeJs, name: "Node.js" },
@@ -20,8 +35,8 @@ export const Projects = () => {
     {
       name: "Bitchest",
       description: "BitChest est une application web pour gérer les portefeuilles de cryptomonnaies, accessible sur divers appareils. Elle permet aux administrateurs de gérer les utilisateurs et aux clients de consulter et gérer leurs cryptomonnaies.",
-      imageUrl: "/bitchest.png", // Mettez ici le chemin vers l'image du projet
-      link: "https://dorbani.alwaysdata.net", // Lien vers le projet,
+      imageUrl: "/bitchest.png",
+      link: "https://dorbani.alwaysdata.net",
       technologies: [
         { icon: FaSymfony, name: "Symfony" },
         { icon: SiMysql, name: "MySQL" },

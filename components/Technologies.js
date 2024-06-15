@@ -2,12 +2,13 @@ import React from "react";
 // Importez les icônes pour les technologies
 import { FaHtml5, FaCss3Alt, FaBootstrap, FaReact, FaPhp, FaSymfony, FaDocker, FaDatabase } from "react-icons/fa";
 import { SiTailwindcss, SiJavascript, SiFirebase, SiMysql } from "react-icons/si";
+import { FaVuejs } from "react-icons/fa";
 
 export const Technologies = () => {
   return (
     <section className="py-10 flex flex-col">
       <h2 className="text-4xl font-bold py-5 dark:text-white text-center">
-        Technologies maîtrisées
+        Stack Techno
       </h2>
       <div className="flex-col justify-center md:grid md:grid-cols-3 gap-10 p-8">
         {/* Frontend */}
@@ -37,6 +38,10 @@ export const Technologies = () => {
             <div className="flex items-center space-x-4">
               <FaReact className="text-4xl text-cyan-600" />
               <span className="text-lg text-gray-800 dark:text-gray-200">React.js</span>
+            </div>
+            <div className="flex items-center space-x-4">
+              <FaVuejs className="text-4xl text-green-600" />
+              <span className="text-lg text-gray-800 dark:text-gray-200">VueJs</span>
             </div>
           </div>
         </div>
